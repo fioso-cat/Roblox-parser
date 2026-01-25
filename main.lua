@@ -16,8 +16,8 @@ local Module = {
 	Version = "1.1.2",
 	Author = "Depso",
 	License = "GNU-GPLv3",
-	Repository = "https://github.com/depthso/Roblox-parser",
-	ImportUrl = "https://raw.githubusercontent.com/depthso/Roblox-parser/refs/heads/main",
+	Repository = "https://github.com/fioso-cat/Roblox-parser",
+	ImportUrl = "https://raw.githubusercontent.com/fioso-cat/Roblox-parser/main",
 
 	Modules = {}
 }
@@ -76,5 +76,6 @@ function Module:New(Data: Table): Table
 
 	return Class
 end
+
 
 return Module
